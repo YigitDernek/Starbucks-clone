@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 128px;
+  height: 128px;
+}
+
+.header {
+  display: flex;
+  margin-left: 62px;
+  margin-top: 32px;
+}
+
+.links {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}/*# sourceMappingURL=style.css.map */
