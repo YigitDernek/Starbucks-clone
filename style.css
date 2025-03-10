@@ -13,47 +13,73 @@ a {
 
 .logo {
   width: 128px;
-  height: 128px;
+  height: auto;
 }
 
 .header {
+  width: 90%;
+  margin: 32px auto;
   display: flex;
   justify-content: flex-start;
-  flex-direction: row;
-  margin-left: 62px;
-  margin-top: 32px;
+  align-items: center;
 }
 
 .header .links {
   list-style: none;
   font-weight: bold;
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  width: 488px;
+  align-items: center;
   height: 55px;
   padding: 20px;
   gap: 46px;
 }
 
-ul li {
+.icons {
+  list-style: none;
+  margin-left: auto;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  gap: 38px;
 }
 
 /* main */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 2rem;
+  background-color: #fff4d4;
+  margin-left: 94px;
+}
+.hero .hero-content p {
+  margin-top: 50px;
+  margin-bottom: 27px;
+}
+.hero .hero-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
 .hero-content h3 {
   font-size: 32px;
   font-weight: bold;
 }
 
 .hero-content .btn {
+  margin-top: 45px;
   width: 100px;
   height: 50px;
   border-radius: 10px;
-  border-color: #00704A;
-  border: #00704A;
+  border: 1px solid #00704A;
   color: #fff;
   background-color: #00704A;
+}
+
+.main .products {
+  display: grid;
+}
+.main .products .bg-img {
+  z-index: -1;
+}
+.main .products .main-image {
+  position: absolute;
 }/*# sourceMappingURL=style.css.map */
